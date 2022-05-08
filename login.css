@@ -1,0 +1,15 @@
+section{
+    margin: auto;
+    padding: 20px 0;
+    width: 370px;
+    border: 1px solid lightgrey;
+    box-shadow: 10px 10px 20px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
