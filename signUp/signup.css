@@ -20,15 +20,14 @@
     font-size: 21px;
     font-weight: 500;
 }
-#error_message{
-    background-color: rgb(177, 96, 96);
-    margin:  8px auto 6px auto;
-    box-shadow: 2px 2px 4px #999;
-    color: #fff;
-    width: fit-content;
-    padding: 10px 4px;
+#message{
     text-align: center;
-    border-radius: 6px;
+}
+#message p{
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 9px;
+    box-shadow: 5px 4px 8px rgba(0,0,0,0.3);
 }
 .container span{
     margin-top: 12px;
@@ -40,7 +39,7 @@
 form{
     border: 1px solid #222;
     box-shadow: 10px 6px 20px rgba(0,0,0,0.3);
-    padding: 0 20px 40px 20px;
+    padding: 20px 20px 40px 20px;
     border-radius: 20px 50px 8px 50px;
 }
 .inp-container input{
@@ -49,10 +48,10 @@ form{
     caret-color: #088178;
     border: none;
     outline: none;
-    width: 200px;
+    width: 230px;
 }
-.inp-container:first-child{
-    border-radius: 0 14px 0 0;
+.inp-container1{
+    border-radius: 0 16px 0 0;
 }
 .inp-container{
     margin-left: auto;
@@ -63,7 +62,10 @@ form{
     border: 1px solid #555;
 }
 button{
-    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px auto 8px auto;
+    outline: none !important;
     padding: 10px 40px;
     font-size: 17px;
     font-weight: 600;
@@ -74,6 +76,12 @@ button{
     position: relative;
     z-index: 1;
     transition: 0.9s;
+}
+#sb{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: none;
 }
 button:hover{
     color: #fff;
