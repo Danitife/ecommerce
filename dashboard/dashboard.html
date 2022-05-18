@@ -4,13 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../icofont/icofont.min.css">
+    <link rel="stylesheet" href="dashboard.css">
     <title>Document</title>
+    <style>
+        .mm{
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
     <main>
-        <h1>Welcome to your Dashboard <span id="username"></span></h1>
+        <section class="side_nav">
+            <div class="nav-logo">
+                <img src="../img/logo.png" alt="">
+                <h1>ShopTee</h1>
+            </div>
+            <h1>Welcome to your Dashboard <span id="username"></span></h1>
+            <div class="nav">
+                    <div class="navv-item">
+                        <i class="fa fa-home"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-listing-box mm"></i>
+                        <a href="#">Dashboard</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-ui-love"></i>
+                        <a href="#">Favourite</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="fa fa-cart-arrow-down cart"></i>
+                        <a href="#">Cart</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-cart-alt"></i>
+                        <a href="#">Checkout</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-history"></i>
+                        <a href="#">History</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-notepad"></i>
+                        <a href="#">Summary</a>
+                    </div>
+                    <div class="navv-item">
+                        <i class="icofont-ui-rate-blank"></i>
+                        <a href="#">Reviews</a>
+                    </div>
+            </div>
+        </section>
+        <section class="second_section">
+            <nav>
+                <div class="nav_input">
+                    <input type="text" placeholder="Search History, Collections and Items">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="icon-container">
+                    <div class="icon">
+                        <a href="#"><i class="fa fa-cart-arrow-down cart"></i></a>
+                        <a href="#"><i class="fa fa-bell"></i></a>
+                    </div>
+                    <div class="avater-div">
+                        <div class="avater"></div>
+                        <button id="logout">Log Out</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="selections" id="selection">
+                                
+            </div>
+        </section>
     </main>
 
     <script src="dashboard.js"></script>
+    <script src="https://kit.fontawesome.com/8d4baeb295.js" crossorigin="anonymous"></script>
 </body>
 </html>
