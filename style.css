@@ -243,6 +243,9 @@ body{
     font-weight: 700;
     color: #088178;
 }
+#product1 .pro .des h4::before{
+    content: "\0024";
+}
 #product1 .pro .cart{
     width: 40px;
     height: 40px;
