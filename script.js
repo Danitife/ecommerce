@@ -91,7 +91,7 @@ let featured_product = [
 
 let showFeatured = ()=>{
     featured_product.forEach(element =>{
-        document.getElementById('pro-container').innerHTML +=`
+        document.getElementById('pro-container1').innerHTML +=`
         <div class="pro">
                 <img src=${element.image} alt="">
                 <div class="des">
@@ -166,7 +166,7 @@ let product = [
 
 let displayProduct = ()=>{
     product.forEach(element =>{
-        document.getElementById('pro-container').innerHTML +=`
+        document.getElementById('pro-container2').innerHTML +=`
             <div class="pro">
                 <img src=${element.image} alt="">
                 <div class="des">

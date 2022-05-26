@@ -102,3 +102,6 @@ p::before{
 .shareIt{
     margin-top: 14px;
 }
+nav{
+    display: flex;
+}
