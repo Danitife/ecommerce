@@ -123,6 +123,7 @@ let showDashboard = ()=>{
         });
 }
 showDashboard() 
+setActive('dashboard')
 
 // let my_cart = []
 const cart = (e) =>{
